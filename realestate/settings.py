@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'realestate.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pgdb' ,
-        'USER': 'postgres',
+        'NAME': 'cloudbrain-db' ,
+        'USER': 'root',
         'PASSWORD': 'anshdb',
-        'HOST':'localhost',
+        'HOST':'192.168.1.87',
         
     }
 }
